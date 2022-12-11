@@ -17,11 +17,13 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@app": ["src/app"],
-      "@pages/*": ["src/pages/*"],
-      "@entities/*": ["src/entities/*"],
-      "@model": ["src/model"],
-      "@shared/*": ["src/shared/*"]
+      "@/app": ["src/app"],
+      "@/pages/*": ["src/pages/*"],
+      "@/widgets/*": ["src/widgets/*"],
+      "@/features/*": ["src/features/*"],
+      "@/entities/*": ["src/entities/*"],
+      "@/model": ["src/model"],
+      "@/shared/*": ["src/shared/*"]
     }
   },
   "include": ["src"],
